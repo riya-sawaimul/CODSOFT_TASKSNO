@@ -53,10 +53,8 @@ Riya Sawaimul
 ## 📊 Visual Results
 
 ### 1. Titanic Survival Rate by Gender
-![Survival Rate by Gender](charts/chart1.png)
+![Survival Rate by Gender](https://raw.githubusercontent.com/riya-sawaimul/CODSOFT_TASKSNO/main/charts/chart1.png)
 
-### 2. Titanic Survival Rate by Passenger Class
-![Survival Rate by Passenger Class](charts/chart2.png)
+![Survival Rate by Passenger Class](https://raw.githubusercontent.com/riya-sawaimul/CODSOFT_TASKSNO/main/charts/chart2.png)
 
-### 3. Titanic Survival Rate by Age Group
-![Survival Rate by Age Group](charts/chart3.png)
+![Survival Rate by Age Group](https://raw.githubusercontent.com/riya-sawaimul/CODSOFT_TASKSNO/main/charts/chart3.png)
