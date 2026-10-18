@@ -1,5 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+
+os.makedirs("charts", exist_ok=True)
 
 # Load the Titanic dataset
 df = pd.read_csv("Task1_Data_Cleaning/Titanic.csv")
@@ -44,7 +47,7 @@ plt.xlabel("Gender")
 plt.ylabel("Survival Rate (%)")
 plt.xticks(rotation=0)
 plt.tight_layout()
-
+plt.savefig("charts/chart1.png", bbox_inches="tight")
 plt.show()
 
 # Analyze survival by passenger class
@@ -61,7 +64,7 @@ plt.xlabel("Passenger Class")
 plt.ylabel("Survival Rate (%)")
 plt.xticks(rotation=0)
 plt.tight_layout()
-
+plt.savefig("charts/chart2.png", bbox_inches="tight")
 plt.show()
 
 # Analyze survival by age
@@ -84,4 +87,5 @@ plt.xlabel("Age Group")
 plt.ylabel("Survival Rate (%)")
 plt.xticks(rotation=0)
 plt.tight_layout()
+plt.savefig("charts/chart3.png", bbox_inches="tight")
 plt.show()
